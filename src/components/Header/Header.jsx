@@ -7,7 +7,7 @@ import useStyle from "./style.js"
 const Header = () => {
     const classes = useStyle();
     return (
-        <AppBar position = "static">
+        <AppBar position = "relaive" style={{background: "#2E3B55"}}>
             <Toolbar className = {classes.toolbar}>
                 <Typography variant ="h5" className="classes.title">
                     Travel Adivsor
